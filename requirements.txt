@@ -1,4 +1,4 @@
- pandas
- requests
+pandas~=2.3.0
+requests~=2.32.4
  numpy
- colorama
+colorama~=0.4.6

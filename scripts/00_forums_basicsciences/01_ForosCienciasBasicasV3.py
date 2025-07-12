@@ -130,8 +130,21 @@ actividades_deseadas = [
 df_resultados = df_resultados[df_resultados['discussion_title'].isin(actividades_deseadas)]
 
 # Exportar a CSV
-df_resultados.to_csv('reporte_configuracion_foros.csv', index=False, encoding='utf-8-sig')
-print(Fore.CYAN + "\n✅ Resultados guardados en 'reporte_configuracion_foros.csv'")
+# Ruta del proyecto (dos niveles arriba del script actual)
+project_root = os.path.abspath(os.path.join(base_path, '..', '..'))
+data_dir = os.path.join(project_root, 'data')
+
+# Crear carpeta 'data' si no existe
+os.makedirs(data_dir, exist_ok=True)
+
+# Ruta final del archivo CSV
+output_path = os.path.join(data_dir, 'reporte_configuracion_foros.csv')
+
+# Guardar el archivo
+df_resultados.to_csv(output_path, index=False, encoding='utf-8-sig')
+print(Fore.CYAN + f"\n✅ Resultados guardados en '{output_path}'")
+
+
 
 # Función para actualizar la configuración del foro
 def update_discussion_settings(course_id, discussion_id, settings):

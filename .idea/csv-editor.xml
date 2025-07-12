@@ -24,6 +24,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\scripts\04_activities_dates\activitiesmaster.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="|" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\scripts\04_activities_dates\aulasmaster.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
