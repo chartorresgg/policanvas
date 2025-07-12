@@ -1,8 +1,6 @@
 # Canvas LMS Automation Project
 
-Este proyecto tiene como objetivo automatizar acciones y procesos dentro del entorno Canvas LMS utilizando su API oficial. A través de scripts desarrollados en Python, se busca optimizar tareas como la gestión de cursos, usuarios, actividades, configuraciones y análisis de datos.
-La automatización de estos procesos permitirá a los usuarios ahorrar tiempo y reducir errores manuales, mejorando la eficiencia en la ejecución de 
-estos procesos y permitiendo pensar de manera más estratégica en otros proyectos de alto valor.
+Este proyecto automatiza tareas en Canvas LMS mediante su API oficial, usando scripts en Python. Su objetivo es optimizar la gestión de cursos, usuarios, actividades y reportes, ahorrando tiempo, reduciendo errores y permitiendo enfocarse en proyectos de mayor valor estratégico
 ---
 
 ## ✨ Objetivos del Proyecto
